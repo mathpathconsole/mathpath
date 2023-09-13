@@ -1,0 +1,35 @@
+Probably you will take some errors. These errors mostly during compile to .apk or .aab file on buildozer
+
+__________Buildozer.spec__________
+
+***Edit your buildozer.spec like:***
+# (list) Source files to include (let empty to include all the files)
+source.include_exts = py,png,jpg,kv,atlas,ttf
+---add ttf or otf---
+
+# (list) Application requirements
+# comma separated e.g. requirements = sqlite3,kivy
+requirements = python3,kivy==2.1.0, kivymd==1.1.1, pillow, sympy, matplotlib
+---add requirements like this---
+
+__________ERRORS or ADVICE__________
+
+__1st error: mpmath error!__
+Solution is here: https://stackoverflow.com/a/64597102/18110933
+Go your current Python file and search 'mpmath' then copy this file and paste (represented file in stackoverflow) in .buildozer
+
+__2nd Advice: SymPy file__
+Normally when you compile with current requirements(at over) sympy default version not enough to making mathematics! you got some errors when open your apk file.
+you want to try in buildozer.spec requirements sympy==1.10.1 but sometimes this doesn't work. You try manually copy sympy file in computer python files to .buildozer 
+like __1st error: mpmath errror!__. just your sympy file in computer copy then past your compile apk work: .buildozer/android/platform/build-armeabi-v7a/dists/<your named file>/_python_bundle__armeabi-v7a/_python_bundle
+site-packages/**sympy** ->change this sympy file in your computer sympy file version 1.10.1 or more!
+[*]look this path: /build-armeabi-v7a/ this path might be /build-arm64-v8a/ or different.
+then again run 'buildozer android debug deploy run' in linux shell. You'll see your apk size increase after add sympy file.
+
+__3rd Advice: monospace font__
+if you want to display pretty mathematical symbols, you have to use 'mono space font' find mathematical monospace font then put in current file your .py file location. (I shared an example about it)
+look example.py and menu_screen.kv file.
+
+That's all If you want more help these steps you don't hesitate to contact us, we love math and developing scientific tools within Open source.
+
+
