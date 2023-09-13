@@ -59,7 +59,7 @@ Go your current Python file and search 'mpmath' then copy this file and paste (r
 **2nd Advice: SymPy file**
 Normally when you compile with current requirements(at over) sympy default version not enough to making mathematics! you got some errors when open your apk file.
 you want to try in buildozer.spec requirements sympy==1.10.1 but sometimes this doesn't work. You try manually copy sympy file in computer python files to .buildozer 
-like __1st error: mpmath errror!__. just your sympy file in computer copy then past your compile apk work: **.buildozer/android/platform/build-armeabi-v7a/dists/<your named file>/_python_bundle__armeabi-v7a/_python_bundle/site-packages/sympy** ->change this sympy file in your computer sympy file version 1.10.1 or more!
+like 1st error: mpmath errror! Just your sympy file in computer copy then past your compile apk work: **.buildozer/android/platform/build-armeabi-v7a/dists/<your named file>/_python_bundle__armeabi-v7a/_python_bundle/site-packages/sympy** ->change this sympy file in your computer sympy file version 1.10.1 or more!
 
 [*]look this path: **/build-armeabi-v7a/** this path might be **/build-arm64-v8a/** or different.
 
