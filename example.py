@@ -1,3 +1,4 @@
+                                    #Current ver== KivyMD version = 1.1.1 , Kivy version = 2.1.0 , SymPy version = 1.10.1
 from kivymd.app import MDApp
 from kivymd.uix.scrollview import MDScrollView
 from kivymd.uix.screen import MDScreen
