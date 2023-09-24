@@ -36,6 +36,9 @@
                         active_line:False
                         hint_text_color_focus:'#6B6B6B' 
                         on_text:root.follow() 
+                        on_focus:root.checkfocus()
+                        on_touch_down:root.checktouch()
+                        #keyboard_mode:'managed'
                             
                     AnchorLayout:
                         anchor_x: 'right'
