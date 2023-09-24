@@ -38,7 +38,7 @@
                         on_text:root.follow() 
                         on_focus:root.checkfocus()
                         on_touch_down:root.checktouch()
-                        #keyboard_mode:'managed'
+                        keyboard_mode:'managed'
                             
                     AnchorLayout:
                         anchor_x: 'right'
@@ -57,10 +57,12 @@
                             MDBottomNavigationItem:
                                 id:change_2d
                                 text: "2D"
+                                on_tab_release:root.add_graphs(mul=1)
                                 
                             MDBottomNavigationItem:
                                 id:change_3d
                                 text: "3D"
+                                on_tab_release:root.add_graphs(mul=2)
 
                             MDBottomNavigationItem:
                                 id:change_tools
@@ -177,6 +179,9 @@
                     id:change_keyboard
                     text:'Use Keyboard'
                     secondary_text:'Current: vMath keyboard'
+                    on_release:
+                        root.setting_keyboard(p=1)
+                        txt1.focus=False
                     IconLeftWidget:
                         id:keyboard_icon
                         icon: "keyboard"
@@ -185,6 +190,9 @@
                     id:change_hint
                     text:'Use hint'
                     secondary_text:'Hints active'
+                    on_release:
+                        root.setting_keyboard(p=2)
+                        txt1.focus=False
                     IconLeftWidget:
                         id:bulb_icon
                         icon: "lightbulb"
