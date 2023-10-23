@@ -1,4 +1,4 @@
-![image]![new2starssign](https://github.com/mathpathconsole/mathpath/assets/116816908/086ff437-e29c-49d9-8ee3-ac6d05150923)
+![new2starssign](https://github.com/mathpathconsole/mathpath/assets/116816908/086ff437-e29c-49d9-8ee3-ac6d05150923)
 
 Welcome to **Stars of the sky, Mathpath: Math solver** application development information segment.
 
