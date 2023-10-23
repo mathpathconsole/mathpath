@@ -51,6 +51,7 @@ And another summer holiday (just focused holidays and free times) published firs
 //
 
 **More help and videos**
+
 https://github.com/mathpathconsole/mathpath/assets/116816908/d835cb7a-bd6b-44ec-bd35-a13181a6a9f5
 
 Now I share our sample code as GUI and Backend for if anyone working mathematics with Python-Kivy. I hope this helps developing more scientific tools on mobile and desktop platforms that using Python. When I was studying physics at the college, getting symbolic calculating lesson with Maple software, **it was fascinated me.** 
