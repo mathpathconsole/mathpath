@@ -1,8 +1,56 @@
-![new2starssign](https://github.com/mathpathconsole/mathpath/assets/116816908/086ff437-e29c-49d9-8ee3-ac6d05150923)
+![image]![new2starssign](https://github.com/mathpathconsole/mathpath/assets/116816908/086ff437-e29c-49d9-8ee3-ac6d05150923)
 
 Welcome to **Stars of the sky, Mathpath: Math solver** application development information segment.
 
+**What is the Mathpath: Math solver**
 
+*Mathpath: Math solver is an advanced mathematical solver application that running on Windows and Android platforms. The capability to solve problem are algebra to differential equations, vector fields. And 2D + 3D + Dataset graphs{column-line-dot} displays.* **And it does not need any internet connection to solve problems.**
+
+*Mathpath uses symbolic computing. (below sample image) What is mean?*
+
+![image](https://github.com/mathpathconsole/mathpath/assets/116816908/09b14406-cca3-4858-9abb-9afe8bf6be52)
+
+*The mean is, really hard to entry on textbox to draw-hand mathematical problems. Therefore a simple way is creating* **"word functions"** *that representing current mathematical notations.* A sample: **diff(** *f(x), x* **)** represent d/dx of f(x) function. 
+
+![image](https://github.com/mathpathconsole/mathpath/assets/116816908/34ea759b-ae82-4250-a4ce-ca357d623f87)
+
+*You see on textbox typed* **x^2+y^2** *but* **[In]** *section converted these symbols automatically to math notation. this process takes ~0.3s.* *Anather sample in below, you see,* **[In] - [Out]** *sections converted quickly math notation and gived answer. (on [Out])*
+
+![image](https://github.com/mathpathconsole/mathpath/assets/116816908/f5db8339-0065-4377-9588-538a10cb7d06)
+![image](https://github.com/mathpathconsole/mathpath/assets/116816908/0a45a4f7-32b2-4998-a0bc-61316e752f5f)
+
+
+**A brief story of Mathpath**
+
+When i was studying in Physics, I met powerful symbolic computation **Maple** *Then I decided to develop advanced mathematical solver running on Mobile to reach students free and do not use internet connection.* Then created little group to thrive them about **Python and scientific computing** *future. A few months on summer holiday passed like these. (But some friends gained more experience, not only mathematical solver)  After these holidays I focus more on mathpath solver. Then published demo version to some users (pictures below)*
+
+![image](https://github.com/mathpathconsole/mathpath/assets/116816908/5becb137-2262-427e-8591-a58953c70aad)
+
+Some structures like Vector fields algorithm(in below) re-written.
+![image](https://github.com/mathpathconsole/mathpath/assets/116816908/08ff22be-6f5a-47d4-bac9-d5fb593366d3)
+
+A simple structure to shrink equation font if **[In] and [Out]** labels stacked each of other.
+![image](https://github.com/mathpathconsole/mathpath/assets/116816908/1a132ff0-96d9-42cc-b95e-641f90a761f1)
+
+And another summer holiday (just focused holidays and free times) published first versions:
+![image](https://github.com/mathpathconsole/mathpath/assets/116816908/a0b52b53-151c-46b5-9bde-e5e1ccbd576b)
+![image](https://github.com/mathpathconsole/mathpath/assets/116816908/975aeca8-9a88-4a9e-8a1f-564034f97889)
+
+*Mathpath still under developing (by free times)*
+
+**Future of Mathpath**
+
+-AudioMath: Advanced mathematics with sound lost able to sight skill of people.
+
+-PhotoMath: Like Photomath
+
+-Geometry: Angles, Lines, geometric shapes...
+
+**AudioMath** demo is running. Like, you say: **"derivative of x square plus five"** And answer gives as audio: **"two x**
+
+//
+
+**More help and videos**
 https://github.com/mathpathconsole/mathpath/assets/116816908/d835cb7a-bd6b-44ec-bd35-a13181a6a9f5
 
 Now I share our sample code as GUI and Backend for if anyone working mathematics with Python-Kivy. I hope this helps developing more scientific tools on mobile and desktop platforms that using Python. When I was studying physics at the college, getting symbolic calculating lesson with Maple software, **it was fascinated me.** 
