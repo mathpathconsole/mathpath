@@ -4,17 +4,19 @@ Welcome to **Stars of the sky, Mathpath: Math solver** application development i
 
 # What is the Mathpath: Math solver
 
-*Mathpath: Math solver is an advanced mathematical solver application that running on Windows and Android platforms. The capability to solve problem are algebra to differential equations, vector fields. And 2D + 3D + Dataset graphs{column-line-dot} displays.* **And it does not need any internet connection to solve problems.**
+*Mathpath: Math solver is an advanced mathematical solver application that running on Windows and Android platforms. The capability to solve problem are algebra to differential equations, vector fields. And 2D + 3D + Dataset graphs{column-line-dot} displays.* **And it does not need any internet connection to solve problems.** *Also Mathpath solver is widely open-source project to reach anyone and programming their own solver application.*
 
-*Mathpath uses symbolic computing. (below sample image) What is mean?*
+*Mathpath uses symbolic computing. (below sample image)*
 
 ![image](https://github.com/mathpathconsole/mathpath/assets/116816908/09b14406-cca3-4858-9abb-9afe8bf6be52)
 
-*The mean is, really hard to entry on textbox to draw-hand mathematical problems. Therefore a simple way is creating* **"word functions"** *that representing current mathematical notations.* A sample: **diff(** *f(x), x* **)** represent d/dx of f(x) function. 
+*The mean is, really hard to entry on textbox to draw-hand mathematical problems. Therefore a simple way is creating* **"word functions"** *that representing current mathematical notations.* A sample: **diff(** *f(x), x* **)** represent **d/dx** of *f(x)* function. (look at below)
 
-![image](https://github.com/mathpathconsole/mathpath/assets/116816908/34ea759b-ae82-4250-a4ce-ca357d623f87)
+![diff_sample](https://github.com/mathpathconsole/mathpath/assets/116816908/08cb20fa-0005-45f4-aa16-87eb61a17433)
 
 *You see on textbox typed* **x^2+y^2** *but* **[In]** *section converted these symbols automatically to math notation. this process takes ~0.3s.* *Anather sample in below, you see,* **[In] - [Out]** *sections converted quickly math notation and gived answer. (on [Out])*
+
+![image](https://github.com/mathpathconsole/mathpath/assets/116816908/34ea759b-ae82-4250-a4ce-ca357d623f87)
 
 ![image](https://github.com/mathpathconsole/mathpath/assets/116816908/59676bba-06fc-444e-8837-ca284b306117)
 
@@ -46,7 +48,7 @@ And another summer holiday (just focused holidays and free times) published firs
 
 3. Geometry: Angles, Lines, geometric shapes...
 
-**AudioMath** demo is running. Like, you say: **"derivative of x square plus five"** And answer gives as audio: **"two x**
+**AudioMath** demo is running. Like, you say: **"derivative of x square plus five"** And answer gives as audio: **"two x** I hope anyone fork these and would publish own (*more powerful than Mathpath*) application on PlayStore and AppStore. But AI (like ChatGpt) increasing day to day probably handle these in the near future though :) 
 
 # More help and videos
 
@@ -54,7 +56,8 @@ https://github.com/mathpathconsole/mathpath/assets/116816908/d835cb7a-bd6b-44ec-
 
 Now I share our sample code as GUI and Backend for if anyone working mathematics with Python-Kivy. I hope this helps developing more scientific tools on mobile and desktop platforms that using Python. 
 1. **Look more info** https://mathpathconsole.github.io/ 
-2. **Google Play Store** https://play.google.com/store/apps/details?id=org.mathconsole_lite.mathconsole_lite&pli=1 
+2. **Google Play Store** https://play.google.com/store/apps/details?id=org.mathconsole_lite.mathconsole_lite&pli=1
+3. **Youtube** https://www.youtube.com/@mathpathsolver/shorts
 
 https://github.com/mathpathconsole/mathpath/assets/116816908/6b6314fc-74d1-4243-9344-a11722e6715d
 
@@ -63,7 +66,7 @@ Mathpath uses 3 important Python libraries.
 2. Matplotlib
 3. Kivy and KivyMD
 
-SymPy and Matplotlib for mathematical drivers. Powerful Gui libraries Kivy and KivyMD for screen design. 
+SymPy and Matplotlib for mathematical drivers. Powerful Gui libraries are Kivy and KivyMD for screen design. 
 
 https://github.com/mathpathconsole/mathpath/assets/116816908/3ae7f065-4c06-4728-b3a6-dc999e181782
 
@@ -75,13 +78,14 @@ https://github.com/mathpathconsole/mathpath/assets/116816908/61009bc8-7dc5-4c52-
 
 
 # ADVICE and SOLUTION OF ERRORS
-Probably you will take some errors. These errors mostly during compile to .apk or .aab file on buildozer
+Probably you will take some errors. These errors mostly during compile to .apk or .aab file on buildozer. *Also do not hesitate to send us message if you aim to develop scientific tools or get some errors in during this process.*
 
 ## Buildozer.spec
+Open your Buildozer.spec file and find "below pieces" in it. Ooops. If you ask me what is Buildozer, please search on your browser and look "kivy buildozer" or send message **Google Groups Kivy users support**  Here is: https://groups.google.com/g/kivy-users  **By the way** you can always ask Kivy support group, they help you, I'm sure. 
 
 ### Edit your buildozer.spec like:
 > *# (list) Source files to include (let empty to include all the files)*
-*source.include_exts = py,png,jpg,kv,atlas,**ttf** **or otf**
+*source.include_exts = py,png,jpg,kv,atlas,**ttf** |||**ttf** **or otf**
 
 > #(list) Application requirements*
 > #comma separated e.g. requirements = sqlite3,kivy*
