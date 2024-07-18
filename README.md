@@ -12,7 +12,8 @@ Welcome to **Stars of the sky, Mathpath: Math solver** application development i
 
 *The mean is, really hard to entry on textbox to draw-hand mathematical problems. Therefore a simple way is creating* **"word functions"** *that representing current mathematical notations.* A sample: **diff(** *f(x), x* **)** represent **d/dx** of *f(x)* function. (look at below)
 
-![diff_sample](https://github.com/mathpathconsole/mathpath/assets/116816908/08cb20fa-0005-45f4-aa16-87eb61a17433)
+![image](https://github.com/user-attachments/assets/0caa779c-767c-4926-8229-08e4a01698f9)
+
 
 *You see on textbox typed* **x^2+y^2** *but* **[In]** *section converted these symbols automatically to math notation. this process takes ~0.3s.* *Anather sample in below, you see,* **[In] - [Out]** *sections converted quickly math notation and gived answer. (on [Out])*
 
