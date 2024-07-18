@@ -1,0 +1,38 @@
+#android apk processs (Please follow the web site! sometimes these steps have wrong letter!)
+<<**Source**>> https://buildozer.readthedocs.io/en/latest/installation.html
+
+#STEPS
+
+0- ".py" file edit as 'main.py' || Example. if your python script file name is 'mathpath.py' please change to 'main.py' 
+
+1- pip3 install --user --upgrade buildozer 
+
+2- sudo apt update <<passwor: --your password-->>
+
+3- sudo apt install -y git zip unzip openjdk-17-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev
+
+4- pip3 install --user --upgrade Cython==0.29.33 virtualenv
+
+5- export PATH=$PATH:~/.local/bin/
+
+6- buildozer init <<edit buildozer>>
+ *prepared buildozer.spec in file.
+
+7- buildozer android debug deploy run
+  
+------------------------------------------------------------------------------------------------------------------
+#GOOGLE COLAB STEPS
+If you want to use Google Colab; please if you get some erros look at web.
+
+0- !pip install buildozer
+
+1- !pip install cython==0.29.33
+
+2- !sudo apt install -y git zip unzip openjdk-17-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev
+
+3- !buildozer init
+ *prepared buildozer.spec in file.
+
+4- !buildozer -v android debug
+
+                                                                   #Reşat Berk | Stars of the Sky 
