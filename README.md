@@ -4,7 +4,7 @@ Welcome to **Stars of the sky, Mathpath: Math solver** application development i
 
 # What is the Mathpath: Math solver
 
-*Mathpath: Math solver is an advanced mathematical solver application that running on Windows and Android platforms. The capability to solve problem are algebra to differential equations, vector fields. And 2D + 3D + Dataset graphs{column-line-dot} displays.* **And it does not need any internet connection to solve problems.** *Also Mathpath solver is widely open-source project to reach anyone and programming their own solver application.*
+*Mathpath: Math solver is an advanced mathematical solver application that running on Windows and Android platforms. The capability to solve problem are algebra to differential equations, vector fields. And 2D + 3D + Dataset graphs{column-line-dot} displays.* **And it does not need any internet connection to solve problems.** *Also Mathpath solver is full open-source project to reach anyone and programming their own solver application.*
 
 *Mathpath uses symbolic computing. (below sample image)*
 
@@ -81,7 +81,7 @@ https://github.com/mathpathconsole/mathpath/assets/116816908/61009bc8-7dc5-4c52-
 Probably you will take some errors. These errors mostly during compile to .apk or .aab file on buildozer. *Also do not hesitate to send us message if you aim to develop scientific tools or get some errors in during this process.*
 
 ## Buildozer.spec
-Open your Buildozer.spec file and find "below pieces" in it. Ooops. If you ask me what is Buildozer, please search on your browser and look "kivy buildozer" or send message **Google Groups Kivy users support**  Here is: https://groups.google.com/g/kivy-users  **By the way** you can always ask Kivy support group, they help you, I'm sure. 
+Open your Buildozer.spec file (in here available 'Mathpath solver file above') and find "below pieces" in it. Ooops. If you ask me what is Buildozer, please search on your browser and look "kivy buildozer" or send message **Google Groups Kivy users support**  Here is: https://groups.google.com/g/kivy-users  **By the way** you can always ask Kivy support group, they help you, I'm sure. 
 
 ### Edit your buildozer.spec like:
 > *# (list) Source files to include (let empty to include all the files)*
