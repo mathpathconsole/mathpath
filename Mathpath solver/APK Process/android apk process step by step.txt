@@ -45,5 +45,10 @@ extract_path = '/content/your_folder'
 import os
 os.listdir(extract_path)
 
+//delete folder code:
+import shutil
+folder_path = '/content/klasor_adi'
+shutil.rmtree(folder_path)
+
 Note: All of them tested, they works.
                                                                    #Reşat Berk | Stars of the Sky 
