@@ -98,7 +98,7 @@ You can always ask to Kivy support group, they will help you, I'm sure.
 source.include_exts = py,png,jpg,kv,atlas,ttf,gif
 ```
 > [!NOTE]
-> `.ttf` is monospaced font type. It might be `.otf` And '.gif' is for latest version of mathpath that using some gifs
+> `.ttf` is monospaced font type. It might be `.otf` And `.gif` is for latest version of mathpath that using some gifs
 
 ```pip-requirements 
 requirements = python3,kivy==2.1.0, kivymd==1.1.1, pillow, sympy, matplotlib
