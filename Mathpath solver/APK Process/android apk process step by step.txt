@@ -22,7 +22,7 @@
   
 ------------------------------------------------------------------------------------------------------------------
 #GOOGLE COLAB STEPS
-If you want to use Google Colab; please if you get some erros look at web.
+If you want to use Google Colab; please if you get some erros look on web.
 
 0- !pip install buildozer
 
@@ -35,7 +35,7 @@ If you want to use Google Colab; please if you get some erros look at web.
 
 4- !buildozer -v android debug
 
-//.rar unzip code:
+//.rar unzip code: (*for me for colab)
 !apt-get install unrar -y
 rar_path = '/content/your_folder.rar'
 extract_path = '/content/your_folder'
@@ -43,10 +43,11 @@ extract_path = '/content/your_folder'
 import os
 os.listdir(extract_path)
 
-//delete folder code:
+//delete folder code: (*for me for colab)
 import shutil
 folder_path = '/content/klasor_adi'
 shutil.rmtree(folder_path)
 
-Note: All of them tested, they works. July 2024
+Note: Tested all, they works. Aug 2025
                                                                    #Reşat Berk | Stars of the Sky 
+
