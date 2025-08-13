@@ -13,7 +13,7 @@ from kivymd.uix.gridlayout import MDGridLayout
 from kivymd.uix.floatlayout import MDFloatLayout
 from kivymd.uix.label import MDLabel
 from kivymd.uix.screen import MDScreen  #VERSION OF LIBRARIES: KivyMD = 1.1.1 , Kivy = 2.1.0 , SymPy = 1.10.1
-from kivy.lang.builder import Builder            #Update_tag: Pearl, 2025
+from kivy.lang.builder import Builder            #Update_tag: Pearl, 2025 
 from kivymd.uix.boxlayout import MDBoxLayout
 from kivymd.uix.behaviors import TouchBehavior
 from kivy.metrics import dp
@@ -2060,4 +2060,5 @@ class MathPathApp(MDApp):
         return self.screenm
 
 kv=MathPathApp().run()
+
 
