@@ -14,6 +14,8 @@
   </a>
 </p>
 
+⚠️ In the August 2025 update, a system-related issue has been identified on devices running Android 15. This issue is not caused by us and generally appears as a "screen overflow" problem. We are currently working on resolving it.
+
 
 ## Table of Contents
 1. [What is Mathpath Solver](#1-what-is-mathpath-solver)
