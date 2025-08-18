@@ -3,25 +3,14 @@
 ---
 
 <p align="center">
-  <a href="https://mathpathconsole.github.io/" target="_blank" style="text-decoration: none; color: inherit;">
-    <div style="display: inline-block; text-align: center; margin: 10px;">
-      <img src="https://icons.iconarchive.com/icons/alecive/flatwoken/256/Apps-Libreoffice-Math-B-icon.png" alt="Website" width="60" height="60">
-      <div>Website</div>
-    </div>
+  <a href="https://mathpathconsole.github.io/" target="_blank">
+    <img src="https://icons.iconarchive.com/icons/alecive/flatwoken/256/Apps-Libreoffice-Math-B-icon.png" alt="Website" width="60" height="60">
   </a>
-
-  <a href="https://www.youtube.com/@mathpathsolver/shorts" target="_blank" style="text-decoration: none; color: inherit;">
-    <div style="display: inline-block; text-align: center; margin: 10px;">
-      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" width="60" height="60">
-      <div>YouTube</div>
-    </div>
+  <a href="https://www.youtube.com/@mathpathsolver/shorts" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" width="60" height="60">
   </a>
-
-  <a href="https://play.google.com/store/apps/details?id=org.mathconsole_lite.mathconsole_lite&gl=TR" target="_blank" style="text-decoration: none; color: inherit;">
-    <div style="display: inline-block; text-align: center; margin: 10px;">
-      <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" alt="Google Play" width="60" height="60">
-      <div>Google Play</div>
-    </div>
+  <a href="https://play.google.com/store/apps/details?id=org.mathconsole_lite.mathconsole_lite&gl=TR" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" alt="Google Play" width="60" height="60">
   </a>
 </p>
 
