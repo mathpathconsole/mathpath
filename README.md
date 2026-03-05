@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://mathpathconsole.github.io/" target="_blank">
-    <img src="https://icons.iconarchive.com/icons/alecive/flatwoken/256/Apps-Libreoffice-Math-B-icon.png" alt="Website" width="60" height="60">
+    <img src="https://mathpathconsole.github.io/intro.png" alt="Website" width="60" height="60">
   </a>
   <a href="https://www.youtube.com/@mathpathsolver/shorts" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" width="60" height="60">
@@ -14,6 +14,19 @@
   </a>
 </p>
 
+> [!CAUTION]
+> It is truly sad to have to write about such a topic here, outside the scope of mathematics. At the same time, we can no longer remain silent about genocide and  the troublemakers of the 21st century.
+> 
+> Here is a simple paradox: *When one human murders another, it is called a crime. But when pathological leaders do the same, it is called normal, or even good  behavior.* Those who are in prison are simply unlucky because they were not leaders. Where are the strict rules for pathological leaders? Who judges them? They are not true leaders; they are pathological and even they worst danger than a simple crimer for world.
+>
+> Imagine, those innocent people and civilians who were murdered — many of them babies, children, and women. Some of them had just begun to crawl. Some had not yet fallen in love or experienced the pain of love. Some were waiting to hear their babies speak their first words and call their name. Yet all of them experienced that most primitive instinct before anything else: The fight or flight response — Panic! All those civilians, who knew nothing and had no control, and all their memories, are gone. Gone because of pathological leaders and their pathological ideas, who claim, *“We came for peace.”*
+>
+> Last words:
+*“Dear guests, history will judge us. And its verdict will be merciless, both to those who committed this atrocity and to those who remained silent and turned a blind eye. No matter how much noise they make or how loudly they scream, we are on the right side of history. And we have told the technology oligarchs very clearly to get their dirty hands off our children’s phones.”*   — Pedro Sánchez
+
+**A Humanitarian Responsibility**
+
+---
 
 ## Table of Contents
 1. [What is Mathpath Solver](#1-what-is-mathpath-solver)
