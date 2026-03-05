@@ -22,7 +22,7 @@
 > Imagine, those innocent people and civilians who were murdered — many of them babies, children, and women. Some of them had just begun to crawl. Some had not yet fallen in love or experienced the pain of love. Some were waiting to hear their babies speak their first words and call their name. Yet all of them experienced that most primitive instinct before anything else: The fight or flight response — Panic! All those civilians, who knew nothing and had no control, and all their memories, are gone. Gone because of pathological leaders and their pathological ideas, who claim, *“We came for peace.”*
 >
 > **Last words:**
-*“Dear guests, history will judge us. And its verdict will be merciless, both to those who committed this atrocity and to those who remained silent and turned a blind eye. No matter how much noise they make or how loudly they scream, we are on the right side of history. And we have told the technology oligarchs very clearly to get their dirty hands off our children’s phones.”*   — Pedro Sánchez, PM of Spain
+*“Dear guests, history will judge us. And its verdict will be merciless, both to those who committed this atrocity and to those who remained silent and turned a blind eye. No matter how much noise they make or how loudly they scream, we are on the right side of history.”*   — Pedro Sánchez, PM of Spain
 
 **A Humanitarian Responsibility**
 
