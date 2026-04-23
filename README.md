@@ -138,3 +138,4 @@ if you want to display pretty mathematical symbols, you have to use 'mono space 
 
 That's all. If you want more help these steps you don't hesitate to contact us, we love math and developing scientific tools within Open source.
 **#Reşat Berk, StarsoftheSky**
+-
