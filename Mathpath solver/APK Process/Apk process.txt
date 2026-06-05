@@ -1,5 +1,5 @@
-#android apk processs (Please follow the web site! sometimes these steps have wrong letter!)
-<<**Source**>> https://buildozer.readthedocs.io/en/latest/installation.html
+#android apk processs (Please follow the web site! sometimes these steps are wrong after updates)
+<<**Source**>> https://buildozer.readthedocs.io/en/latest/installation/
 
 #STEPS WSL-Linux-Ubuntu
 
@@ -22,19 +22,20 @@
   
 ------------------------------------------------------------------------------------------------------------------
 #GOOGLE COLAB STEPS
-If you want to use Google Colab; please if you get some erros look on web.
+If you want to use Google Colab;
 
 0- !pip install buildozer
 
 1- !pip install cython==0.29.33
 
-2- !sudo apt install -y git zip unzip openjdk-17-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev
+2- !sudo apt-get update
+   !sudo apt install -y git zip unzip openjdk-17-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev --fix-missing
 
 3- !buildozer init
- *prepared buildozer.spec in file.
+ *prepared buildozer.spec in file. /!\ don't use 'mpmath in specfile if u don't wanna error. use after have got apk, recompile again.
 
 4- !buildozer -v android debug
-
+-----------------------------------------------------------------------------------------------------------
 //.rar unzip code: (*for me for colab)
 !apt-get install unrar -y
 rar_path = '/content/your_folder.rar'
@@ -48,5 +49,5 @@ import shutil
 folder_path = '/content/klasor_adi'
 shutil.rmtree(folder_path)
 
-Note: Tested all, they works. Aug 2025
+Note: Tested on Colab, they works. June 2026
                                                                    #Reşat Berk | Stars of the Sky
