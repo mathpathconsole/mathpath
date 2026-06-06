@@ -61,7 +61,7 @@ SymPy and Matplotlib for mathematical drivers. Powerful Gui libraries are Kivy a
 Dependencies:
 ```pip-requirements
 kivymd==1.1.1
-kivy==2.1.0
+kivy==2.3.1
 sympy==1.10.1
 matplotlib==3.5.2
 ```
@@ -111,11 +111,19 @@ You can always ask to Kivy support group, they will help you, I'm sure.
 source.include_exts = py,png,jpg,kv,atlas,ttf,gif
 ```
 > [!NOTE]
-> `.ttf` is monospaced font type. It might be `.otf` And `.gif` is for latest version of mathpath that using some gifs
+> `.ttf` is monospaced font type. It might be `.otf` Also `.gif` is for latest version of mathpath that using some gifs
 
 ```pip-requirements 
-requirements = python3,kivy==2.1.0, kivymd==1.1.1, pillow, sympy, matplotlib
+requirements = python3,kivy==2.3.1, kivymd==1.1.1, pillow, sympy, mpmath, matplotlib
 ```
+> [!NOTE]
+> If u faced `cgi` error, don't add `mpmath` untill u have got `.apk or .aab`. Then add, recompile again.
+
+```pip-requirements
+Section 4.3 - mpmath error! and 4.4 - SymPy file error is not need anymore on new buildozer versions.
+buildozer==1.6.0
+cython==0.29.33
+``` 
 
 ### 4.3 mpmath error!
 Solution is here: https://stackoverflow.com/a/64597102/18110933
