@@ -36,7 +36,7 @@ from sympy import *
 import matplotlib.pyplot as plt
 import webbrowser
 
-# --------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
 # for some functions of 3D graphs error patch(not need to use on desktop, use for compile process)
 import matplotlib.axes as maxes
 
@@ -62,7 +62,7 @@ try:
     axes3d.Axes3D.set_zlim = _patch_set_zlim
 except ImportError:
     pass
-# --------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
 
 a, b, c, d, e, f, g, h, i, j, k, l, m, n, p, r, s, t, u, v, x, y, z, nu, rho, phi, theta = symbols("a b c d e f g h i j k l m n p r s t u v x y z nu rho phi theta")
 
