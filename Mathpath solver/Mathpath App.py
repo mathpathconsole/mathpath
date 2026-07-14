@@ -63,6 +63,7 @@ try:
 except ImportError:
     pass
 # --------------------------------------------------------------------------
+
 a, b, c, d, e, f, g, h, i, j, k, l, m, n, p, r, s, t, u, v, x, y, z, nu, rho, phi, theta = symbols("a b c d e f g h i j k l m n p r s t u v x y z nu rho phi theta")
 
 init_printing(use_unicode=True) #for pretty mathematical symbols by Sympy
