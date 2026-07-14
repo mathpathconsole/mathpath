@@ -36,7 +36,7 @@
 
 ## 1. What is Mathpath Solver
 
-*Mathpath: Math solver is an advanced mathematical solver application that running on Windows and Android platforms. The capability to solve problem are algebra to differential equations, vector fields. And 2D + 3D + Dataset graphs{column-line-dot} displays.* **And it does not need any internet connection to solve problems.** *Also Mathpath solver is full open-source project to reach anyone and programming their own solver application.*
+*Mathpath: Math solver is an advanced mathematical solver application that running on Windows and Android platforms. The capability to solve problem are algebra to differential equations, vector fields. And also the app displays 2D, 3D and Dataset graphs.* **And it does not need any internet connection to solve problems.** *Also Mathpath solver is full open-source project to reach anyone and programming their own solver application.*
 
 *Mathpath uses symbolic computing. (below sample image)*
 
@@ -47,7 +47,7 @@
 ![image](https://github.com/user-attachments/assets/0caa779c-767c-4926-8229-08e4a01698f9)
 
 
-*You see on textbox typed* **x^2+y^2** *but* **[In]** *section converted these symbols automatically to math notation. this process takes ~0.3s.* *Anather sample in below, you see,* **[In] - [Out]** *sections converted quickly math notation and gived answer. (on [Out])*
+*You see below pictures, on textbox typed* **x^2+y^2** *but* **[In]** *section converted these symbols automatically to math notation. this process takes ~0.3s.* *Anather sample in below, you see,* **[In] - [Out]** *sections converted quickly math notation and gived answer. (on [Out])*
 
 ![image](https://github.com/user-attachments/assets/b3cda630-09fb-45d5-ac82-9e22a785aefa)
 
@@ -72,7 +72,7 @@ matplotlib==3.5.2
 
 ## 2. A brief story of Mathpath
 
-When i was studying in Physics, I met powerful symbolic computation **Maple** *it was fascinated me. Then I decided to develop advanced mathematical solver running on Mobile to reach students free and do not use internet connection.* Then created little group to thrive them about **Python and scientific computing** *future. A few months on summer holiday passed like these. (But some friends gained more experience, not only mathematical solver)  After these holidays I focus more on mathpath solver. Then published demo version to some users (pictures below)*
+When i was studying in Physics(BSc.2021), I met powerful symbolic computation **Maple** *it was fascinated me. Then I decided to develop advanced mathematical solver running on Mobile to reach students free and do not use internet connection.* Then created little group to thrive them about **Python and scientific computing** *future. A few months on summer holiday passed like these. (But some friends gained more experience, not only mathematical solver)  After these holidays I focus more on mathpath solver. Then published demo version to some users in 2021(pictures below)*
 
 ![image](https://github.com/mathpathconsole/mathpath/assets/116816908/5becb137-2262-427e-8591-a58953c70aad)
 
@@ -82,7 +82,7 @@ Some structures like Vector fields algorithm(in below) re-written.
 A simple structure to shrink equation font if **[In] and [Out]** labels stacked each of other.
 ![image](https://github.com/mathpathconsole/mathpath/assets/116816908/1a132ff0-96d9-42cc-b95e-641f90a761f1)
 
-And another summer holiday (just focused holidays and free times) published first versions:
+And another summer holiday (just focused holidays and free times) published first versions in 2022 May:
 ![image](https://github.com/mathpathconsole/mathpath/assets/116816908/8a876440-150b-4932-bf01-6c9b7678cbd1)
 
 ---
@@ -119,11 +119,9 @@ requirements = python3,kivy==2.3.1, kivymd==1.1.1, pillow, sympy, mpmath, matplo
 > [!NOTE]
 > If u faced `cgi` error, don't add `mpmath` untill u have got `.apk or .aab`. Then add, recompile again.
 
-```pip-requirements
-Section 4.3 - mpmath error! and 4.4 - SymPy file error is not need anymore on new buildozer versions.
-buildozer==1.6.0
-cython==0.29.33
-``` 
+> [!NOTE]
+> Section `4.3 - mpmath error!` and `4.4 - SymPy file error` is not need anymore on new buildozer versions.
+> `buildozer==1.6.0`. Just need to little patch to Sympy file. And you can look `Mathpath solver/Apk Process/Compile-to-Apk.ipynb`
 
 ### 4.3 mpmath error!
 Solution is here: https://stackoverflow.com/a/64597102/18110933
