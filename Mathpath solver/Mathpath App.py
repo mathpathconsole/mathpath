@@ -35,6 +35,34 @@ import io #--> for display graphics without errors. Please look at below 'calc_g
 from sympy import *
 import matplotlib.pyplot as plt
 import webbrowser
+
+# --------------------------------------------------------------------------
+# for some functions of 3D graphs error patch(not need to use on desktop, use for compile process)
+import matplotlib.axes as maxes
+
+_orj_set_ylim = maxes.Axes.set_ylim
+def _patch_set_ylim(self, *args, **kwargs):
+    try:
+        return _orj_set_ylim(self, *args, **kwargs)
+    except Exception:
+        return _orj_set_ylim(self, -10.0, 10.0)
+
+maxes.Axes.set_ylim = _patch_set_ylim
+
+try:
+    import mpl_toolkits.mplot3d.axes3d as axes3d
+    _orj_set_zlim = axes3d.Axes3D.set_zlim
+    
+    def _patch_set_zlim(self, *args, **kwargs):
+        try:
+            return _orj_set_zlim(self, *args, **kwargs)
+        except Exception:
+            return _orj_set_zlim(self, -10.0, 10.0)
+            
+    axes3d.Axes3D.set_zlim = _patch_set_zlim
+except ImportError:
+    pass
+# --------------------------------------------------------------------------
 a, b, c, d, e, f, g, h, i, j, k, l, m, n, p, r, s, t, u, v, x, y, z, nu, rho, phi, theta = symbols("a b c d e f g h i j k l m n p r s t u v x y z nu rho phi theta")
 
 init_printing(use_unicode=True) #for pretty mathematical symbols by Sympy
