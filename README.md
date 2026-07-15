@@ -1,5 +1,7 @@
 ![new2starssign](https://github.com/mathpathconsole/mathpath/assets/116816908/086ff437-e29c-49d9-8ee3-ac6d05150923)
 
+<img width="1920" height="1080" alt="mathpath-design" src="https://github.com/user-attachments/assets/7d95973e-0cea-45bd-b6e0-c9917083d66c" />
+
 ---
 
 <p align="center">
