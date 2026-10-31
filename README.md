@@ -46,12 +46,14 @@
 
 *The mean is, really hard to entry on textbox to draw-hand mathematical problems. Therefore a simple way is creating* **"word functions"** *that representing current mathematical notations.* A sample: **diff(** *f(x), x* **)** represent **d/dx** of *f(x)* function. (look at below)
 
-![image](https://github.com/user-attachments/assets/0caa779c-767c-4926-8229-08e4a01698f9)
+<img width="541" height="697" alt="mathpath-console-demo" src="https://github.com/user-attachments/assets/84f9ba2e-904c-4c45-9497-6679fac7dc93" />
 
 
-*You see below pictures, on textbox typed* **x^2+y^2** *but* **[In]** *section converted these symbols automatically to math notation. this process takes ~0.3s.* *Anather sample in below, you see,* **[In] - [Out]** *sections converted quickly math notation and gived answer. (on [Out])*
 
-![image](https://github.com/user-attachments/assets/b3cda630-09fb-45d5-ac82-9e22a785aefa)
+*From latest update:*
+
+<img width="1348" height="885" alt="image" src="https://github.com/user-attachments/assets/7bf6ad3d-c176-44e8-96c5-3283647776f0" />
+
 
 Mathpath uses 3 important Python libraries.
 1. SymPy
