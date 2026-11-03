@@ -41,6 +41,7 @@
 7th release tag: *#Panda* 🐼  
 **8th release tag: #Kiraz** 🍒 *(October 2026)*
 
+---
 
 ## Table of Contents
 1. [What is Mathpath Solver](#1-what-is-mathpath-solver)
