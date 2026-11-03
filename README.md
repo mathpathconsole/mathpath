@@ -30,6 +30,18 @@
 
 ---
 
+## Release Tags
+
+1st release tag: *#Chill sky memories*  
+2nd release tag: *#Oktay Sinanoğlu*  
+3rd release tag: *#Half-blood prince*  
+4th release tag: *#Weasleys*  
+5th release tag: *#Biodiversity*  
+6th release tag: *#Pearl*  
+7th release tag: *#Panda* 🐼  
+**8th release tag: #Kiraz** 🍒 *(October 2026)*
+
+
 ## Table of Contents
 1. [What is Mathpath Solver](#1-what-is-mathpath-solver)
 2. [A brief story of Mathpath](#2-a-brief-story-of-mathpath)
