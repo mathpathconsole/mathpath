@@ -15,6 +15,9 @@
     <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" alt="Google Play" width="60" height="60">
   </a>
 </p>
+<p align="center">
+  All Projects - <a href="https://www.sotstech.com" target="_blank">https://www.sotstech.com</a>
+</p>
 
 > [!CAUTION]
 > It is truly sad to have to write about such a topic here, outside the scope of mathematics. At the same time, we can no longer remain silent about genocide and  the troublemakers of the 21st century.
